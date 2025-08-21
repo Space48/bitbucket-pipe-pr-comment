@@ -3,4 +3,4 @@ WORKDIR /usr/src/app
 
 COPY dist ./
 
-CMD ["node", "index.js"]
+CMD ["node", "/usr/src/app/index.js"]
